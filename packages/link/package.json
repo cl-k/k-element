@@ -1,6 +1,6 @@
 {
   "name": "k-link",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "k-link component",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
