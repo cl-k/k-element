@@ -1,5 +1,5 @@
 {
-  "name": "k-form",
+  "name": "k-form1",
   "version": "0.0.5",
   "description": "",
   "main": "dist/cjs/index.js",
@@ -14,5 +14,5 @@
   "dependencies": {
     "lodash": "4"
   },
-  "gitHead": "73de12462642e80ab13cd50f8ad414d0c1903e99"
+  "gitHead": "b66c58398bab665697bcfcda6d7bb508edd14131"
 }
