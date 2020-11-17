@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'LgLink',
+  name: 'KLink',
   props: {
     href: {
       type: String

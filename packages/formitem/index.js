@@ -1,7 +1,7 @@
-import LgFormItem from './src/formitem.vue'
+import KFormItem from './src/formitem.vue'
 
-LgFormItem.install = Vue => {
-  Vue.component(LgFormItem.name, LgFormItem)
+KFormItem.install = Vue => {
+  Vue.component(KFormItem.name, KFormItem)
 }
 
-export default LgFormItem
+export default KFormItem

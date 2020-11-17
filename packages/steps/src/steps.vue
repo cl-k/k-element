@@ -1,8 +1,8 @@
 <template>
-  <div class="lg-steps">
-    <div class="lg-steps-line"></div>
+  <div class="k-steps">
+    <div class="k-steps-line"></div>
     <div
-      class="lg-step"
+      class="k-step"
       v-for="index in count"
       :key="index"
       :style="{ color: active >= index ? activeColor : defaultColor }"
@@ -15,7 +15,7 @@
 <script>
 import './steps.css'
 export default {
-  name: 'LgSteps',
+  name: 'KSteps',
   props: {
     count: {
       type: Number,

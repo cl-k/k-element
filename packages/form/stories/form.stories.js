@@ -1,28 +1,28 @@
-import LgForm from '../'
-import LgFormItem from '../../formitem'
-import LgInput from '../../input'
-import LgButton from '../../button'
+import KForm from '../'
+import KFormItem from '../../formitem'
+import KInput from '../../input'
+import KButton from '../../button'
 
 export default {
-  title: 'LgForm',
-  component: LgForm
+  title: 'KForm',
+  component: KForm
 }
 
 export const Login = () => ({
-  components: { LgForm, LgFormItem, LgInput, LgButton },
+  components: { KForm, KFormItem, KInput, KButton },
   template: `
-    <lg-form class="form" ref="form" :model="user" :rules="rules">
-      <lg-form-item label="用户名" prop="username">
-        <!-- <lg-input v-model="user.username"></lg-input> -->
-        <lg-input :value="user.username" @input="user.username=$event" placeholder="请输入用户名"></lg-input>
-      </lg-form-item>
-      <lg-form-item label="密码" prop="password">
-        <lg-input type="password" v-model="user.password"></lg-input>
-      </lg-form-item>
-      <lg-form-item>
-        <lg-button type="primary" @click="login">登 录</lg-button>
-      </lg-form-item>
-    </lg-form>
+    <k-form class="form" ref="form" :model="user" :rules="rules">
+      <k-form-item label="用户名" prop="username">
+        <!-- <k-input v-model="user.username"></k-input> -->
+        <k-input :value="user.username" @input="user.username=$event" placeholder="请输入用户名"></k-input>
+      </k-form-item>
+      <k-form-item label="密码" prop="password">
+        <k-input type="password" v-model="user.password"></k-input>
+      </k-form-item>
+      <k-form-item>
+        <k-button type="primary" @click="login">登 录</k-button>
+      </k-form-item>
+    </k-form>
   `,
   data () {
     return {

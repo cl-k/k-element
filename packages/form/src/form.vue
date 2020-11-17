@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'LgForm',
+  name: 'KForm',
   provide () {
     return {
       form: this

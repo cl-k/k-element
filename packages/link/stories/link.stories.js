@@ -1,15 +1,15 @@
-import LgLink from '../src/link.vue'
+import KLink from '../src/link.vue'
 
 export default {
-  title: 'LgLink',
-  component: LgLink
+  title: 'KLink',
+  component: KLink
 }
 
 export const Link = _ => ({
-  components: { LgLink },
+  components: { KLink },
   template: `
     <div>
-      <lg-link :disabled="true" href="http://www.baidu.com">baidu</lg-link>
+      <k-link :disabled="true" href="http://www.baidu.com">baidu</k-link>
     </div>
   `
 })

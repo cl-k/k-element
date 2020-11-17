@@ -1,7 +1,7 @@
-import LgForm from './src/form.vue'
+import KForm from './src/form.vue'
 
-LgForm.install = Vue => {
-  Vue.component(LgForm.name, LgForm)
+KForm.install = Vue => {
+  Vue.component(KForm.name, KForm)
 }
 console.log('test')
-export default LgForm
+export default KForm

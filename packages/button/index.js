@@ -1,7 +1,7 @@
-import LgButton from './src/button.vue'
+import KButton from './src/button.vue'
 
-LgButton.install = Vue => {
-  Vue.component(LgButton.name, LgButton)
+KButton.install = Vue => {
+  Vue.component(KButton.name, KButton)
 }
 
-export default LgButton
+export default KButton

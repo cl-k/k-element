@@ -1,7 +1,7 @@
-import LgSteps from './src/steps.vue'
+import KSteps from './src/steps.vue'
 
-LgSteps.install = Vue => {
-  Vue.component(LgSteps.name, LgSteps)
+KSteps.install = Vue => {
+  Vue.component(KSteps.name, KSteps)
 }
 
-export default LgSteps
+export default KSteps

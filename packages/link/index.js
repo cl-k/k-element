@@ -1,7 +1,7 @@
-import LgLink from './src/link.vue'
+import KLink from './src/link.vue'
 
-LgLink.install = Vue => {
-  Vue.component(LgLink.name, LgLink)
+KLink.install = Vue => {
+  Vue.component(KLink.name, KLink)
 }
 
-export default LgLink
+export default KLink

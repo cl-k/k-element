@@ -1,13 +1,13 @@
-import LgInput from '../'
+import KInput from '../'
 
 export default {
-  title: 'LgInput',
-  component: LgInput
+  title: 'KInput',
+  component: KInput
 }
 
 export const Text = () => ({
-  components: { LgInput },
-  template: '<lg-input v-model="value"></lg-input>',
+  components: { KInput },
+  template: '<k-input v-model="value"></k-input>',
   data () {
     return {
       value: 'admin'
@@ -16,8 +16,8 @@ export const Text = () => ({
 })
 
 export const Password = () => ({
-  components: { LgInput },
-  template: '<lg-input type="password" v-model="value"></lg-input>',
+  components: { KInput },
+  template: '<k-input type="password" v-model="value"></k-input>',
   data () {
     return {
       value: 'admin'

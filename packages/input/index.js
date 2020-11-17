@@ -1,7 +1,7 @@
-import LgInput from './src/input.vue'
+import KInput from './src/input.vue'
 
-LgInput.install = Vue => {
-  Vue.component(LgInput.name, LgInput)
+KInput.install = Vue => {
+  Vue.component(KInput.name, KInput)
 }
 
-export default LgInput
+export default KInput

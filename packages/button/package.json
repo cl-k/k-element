@@ -1,5 +1,5 @@
 {
-  "name": "lg-button",
+  "name": "k-button",
   "version": "0.0.1",
   "description": "",
   "main": "dist/cjs/index.js",
@@ -10,7 +10,7 @@
     "del": "rimraf dist"
   },
   "keywords": [],
-  "author": "教瘦 <54337467@qq.com>",
+  "author": "k",
   "license": "MIT",
   "dependencies": {
     "lodash": "4"
