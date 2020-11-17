@@ -3,7 +3,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "KELEMENT",
+  "name": "kelement",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
