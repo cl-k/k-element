@@ -1,9 +1,10 @@
 <template>
   <a
     :href="disabled ? null : href"
-    :class="[disabled && 'disabled', !underline && 'no-underline']">
-      <slot></slot>
-    </a>
+    :class="[disabled && 'disabled', !underline && 'no-underline']"
+  >
+  <slot />
+  </a>
 </template>
 
 <script>
@@ -29,6 +30,7 @@ export default {
 .disabled {
   cursor: not-allowed;
 }
+
 .no-underline {
   text-decoration: none;
 }

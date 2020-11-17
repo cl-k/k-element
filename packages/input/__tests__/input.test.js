@@ -2,18 +2,18 @@ import input from '../src/input.vue'
 import { mount } from '@vue/test-utils'
 
 describe('k-input', () => {
-  test('input-text', () => {
+  test('input-test', () => {
     const wrapper = mount(input)
-    expect(wrapper.html()).toContain('input type="text"')
+    expect(wrapper.html()).toContain('input type="text')
   })
-  
+
   test('input-password', () => {
     const wrapper = mount(input, {
       propsData: {
-        type: 'password'
+        type: 'password',
       }
     })
-    expect(wrapper.html()).toContain('input type="password"')
+    expect(wrapper.html()).toContain('input type="password')
   })
 
   test('input-password', () => {
